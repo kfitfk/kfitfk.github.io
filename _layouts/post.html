@@ -1,0 +1,10 @@
+---
+layout: default
+---
+<div class="post-wrapper">
+{% if page.poster %}
+<div class="poster"><img src="{{ page.poster }}" alt="{{ page.title }}"></div>
+{% endif %}
+
+{{content}}
+</div>

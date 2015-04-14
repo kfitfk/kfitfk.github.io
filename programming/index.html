@@ -3,7 +3,7 @@ layout: default
 ---
 
 <ul class="post-list">
-  {% for post in site.posts %}
+  {% for post in site.categories.programming %}
   <li class="post-list-item">
     {% if post.poster %}
     <a href="{{ post.url }}"><div class="poster"><img src="{{ post.poster }}" alt="{{ post.title }}"></div></a>
