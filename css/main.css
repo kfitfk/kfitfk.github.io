@@ -88,6 +88,7 @@ p {
 }
 
 .post-list-item {
+  margin: 20px 0;
   padding: 6px;
   width: 100%;
   border-radius: 2px;
@@ -118,7 +119,7 @@ p {
 }
 
 .post-wrapper li::before {
-  content: "▸";
+  content: "\25B8";
   padding: 0 4px;
 }
 
