@@ -118,7 +118,12 @@ p {
   width: 100%;
 }
 
-.post-wrapper li::before {
+.post-wrapper ol li {
+  list-style-position: inside;
+  list-style-type: decimal;
+}
+
+.post-wrapper ul li::before {
   content: "\25B8";
   padding: 0 4px;
 }
