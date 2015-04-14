@@ -24,6 +24,8 @@ summary: This article talks about the basics of Apple's new programming language
 
 对于普通的语句，Playground 会直接在右侧面板给出结果。如果是个循环之类的，可以把鼠标滑到右侧面板的 (xxx times) 上，点击 Value History 按钮来以图表的方式查看值的变化情况。
 
+![Playground](http://gtms01.alicdn.com/tps/i1/TB1544fHFXXXXXOXVXXwiJPTFXX-1060-594.jpg)
+
 ## Variables
 
 Swift 里所有的变量都必须用 `var` 关键字来声明。当声明变量的同时赋予变量初始值，则不需要显式指定变量的类型。Swift 会自动判断之。
