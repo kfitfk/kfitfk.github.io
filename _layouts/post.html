@@ -8,6 +8,9 @@ layout: default
 
 {{content}}
 </div>
+{% for js in page.customjs %}
+<script async type="text/javascript" src="{{ js }}"></script>
+{% endfor %}
 <!-- 多说评论框 start -->
 <div class="ds-thread" data-thread-key="{{ page.id }}" data-title="{{ page.title }}" data-url="{{ site.host }}{{ page.id }}.html"></div>
 <!-- 多说评论框 end -->
