@@ -24,6 +24,17 @@ blockquote {
   border-left: 4px solid #89C310;
 }
 
+/*~~ override cube.css styles for code display ~~*/
+pre {
+  white-space: pre;
+}
+
+table th, table td {
+  padding: 0;
+  border: none;
+}
+/*~~ override cube.css styles for code display ends ~~*/
+
 .page-wrapper {
   margin: 56px auto 0; /* sync the top margin in main.js*/
   max-width: 620px;
