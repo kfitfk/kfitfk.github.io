@@ -18,6 +18,12 @@ p {
   margin: 10px 0;
 }
 
+blockquote {
+  padding-left: 8px;
+  background: #eee;
+  border-left: 4px solid #89C310;
+}
+
 .page-wrapper {
   margin: 56px auto 0; /* sync the top margin in main.js*/
   max-width: 620px;
@@ -27,13 +33,13 @@ p {
 
 .page-wrapper a:link,
 .page-wrapper a:visited {
-  color: #999;
+  color: #89C310;
 }
 
 .page-wrapper a:hover,
 .page-wrapper a:active,
 .page-wrapper a:focus {
-  color: #89C310;
+  color: #107c10;
 }
 /*------------^1 global ends------------*/
 
