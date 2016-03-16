@@ -26,7 +26,12 @@ blockquote {
 
 /*~~ override cube.css styles for code display ~~*/
 pre {
+  padding: 4px;
   white-space: pre;
+}
+
+pre.lineno {
+  padding-right: 8px;
 }
 
 table th, table td {
