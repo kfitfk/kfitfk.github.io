@@ -50,24 +50,24 @@ customjs:
 
 我在项目里需要考虑在任意背景上，是使用白色文本还是黑色文本。于是用了更加简化的公式。
 
-```js
+{% highlight javascript linenos %}
 function luminosityContrastWithWhite(r, g, b) {
   var luminance = 0.2126 * Math.pow(r/255, 2.2) + 0.7152 * Math.pow(g/255, 2.2) + 0.0722 * Math.pow(b/255, 2.2)
   return 1.05 / (luminance + 0.05)
 }
-```
+{% endhighlight %}
 
 上述方法的参数区间为 [0, 255]。
 
 可能是我自己对于颜色的感觉比较敏感，在对比度不满足规范的某些情况下，我仍然偏好某些搭配。因此应用上述公式之后，我选择结果小于 2 时才使用黑色文本，其他情况均使用白色文本。
 
-```js
+{% highlight javascript linenos %}
 if (luminosityContrastWithWhite(235, 116, 116) < 2) {
   // use black text
 }
 else {
   // use white text
 }
-```
+{% endhighlight %}
 
 <p data-height="119" data-theme-id="0" data-slug-hash="MybbBv" data-default-tab="result" data-user="yehao" class="codepen">See the Pen <a href="http://codepen.io/yehao/pen/MybbBv/">MybbBv</a> by Ye Hao (<a href="http://codepen.io/yehao">@yehao</a>) on <a href="http://codepen.io">CodePen</a>.</p>

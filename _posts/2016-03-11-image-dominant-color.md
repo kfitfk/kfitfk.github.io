@@ -28,7 +28,7 @@ summary: The designers ask me to get the dominant color of an image regardless o
 
 因此就有了下面这个方法，返回 Object 的值降序排列时的键。
 
-```js
+{% highlight javascript linenos %}
 function keysAfterArsortNumeric(obj) {
   var result = []
 
@@ -50,11 +50,11 @@ function keysAfterArsortNumeric(obj) {
 
   return result
 }
-```
+{% endhighlight %}
 
 使用效果如下。
 
-```js
+{% highlight javascript linenos %}
 var obj = {
   'd': 40,
   'a': 10,
@@ -64,7 +64,7 @@ var obj = {
 
 console.log(keysAfterArsortNumeric(obj))
 // outputs: ["d", "c", "b", "a"]
-```
+{% endhighlight %}
 
 ### Resizing image
 
@@ -74,7 +74,7 @@ console.log(keysAfterArsortNumeric(obj))
 
 这里直接在浏览器里用 Canvas 做非等比缩放。
 
-```js
+{% highlight javascript linenos %}
 function resizeImage(img, width, height) {
   var canvas = document.createElement('canvas')
   var context = canvas.getContext('2d')
@@ -83,13 +83,13 @@ function resizeImage(img, width, height) {
   context.drawImage(img, 0, 0, width, height)
   return canvas
 }
-```
+{% endhighlight %}
 
 ### Reducing duplicate colors
 
 使用 Canvas 缩放图片后，便可以得到每个像素的颜色值。首先要做的就是去掉近似色。这里分别对每个像素的 R，G，B 3 个值进行重新计算。
 
-```js
+{% highlight javascript linenos %}
 // img 是一个 DOM <img> 节点
 var delta = 16
 var halfDelta
@@ -130,7 +130,7 @@ for (y = 0; y < height; y++) {
     }
   }
 }
-```
+{% endhighlight %}
 
 `#1` 处用到了一个 `imageColorAt` 方法，就是通过 `<Canvas>` 2d context 的 `getImageData` 读取颜色值，返回一个类似 `{ red: 0, green: 0, blue: 0 }` 的对象。其中 `canvas` 变量是使用前一小节的 `resizeImage` 方法得到的。
 
@@ -148,7 +148,7 @@ for (y = 0; y < height; y++) {
 
 例如，当前有 2 个出现次数较高的近似色，在 `hexObj` 里表现为 `{'20a020': 4000, '30a020': 5000}`。这两个颜色在人眼看来是非常接近的。通过这个步骤，`hexObj` 将变为 `{'20a020': 0, '30a020': 9000}`。
 
-```js
+{% highlight javascript linenos %}
 // #1
 var hexArr = keysAfterArsortNumeric(hexObj)
 var gradients = {}
@@ -168,7 +168,7 @@ hexArr.forEach(function(val) {
     hexObj[val] = 0
   }
 })
-```
+{% endhighlight %}
 
 `#1` 处先根据上一小节得到的 `hexObj` 做个排序，按照颜色出现次数由多到少，把颜色值存在 `hexArr` 数组里。`gradients` 对象用于存储近似色的关系。以前面那 2 个绿色为例，`gradients` 将包含 `{ '20a020': '30a020', '30a020': '30a020' }`。
 
@@ -184,7 +184,7 @@ hexArr.forEach(function(val) {
 
 首先，将有效颜色都推入结果数组中。
 
-```js
+{% highlight javascript linenos %}
 var result = []
 hexArr = keysAfterArsortNumeric(hexObj)
 hexArr.forEach(function(val) {
@@ -192,21 +192,21 @@ hexArr.forEach(function(val) {
     result.push({ color: val, weight: hexObj[val] })
   }
 })
-```
+{% endhighlight %}
 
 根据 RGB 和 HSB 的关系，明度取决于 R/G/B 三者的最大值，非黑色的饱和度为 `(Max(R, G, B) - Min(R, G, B)) / Max(R, G, B)`。此处 R/G/B 属于 [0, 1] 区间。因此可以通过以下公式来简单判断一个颜色是否饱和度和明度相对较高。
 
-```js
+{% highlight javascript linenos %}
 function favorSaturatedHue(r, g, b) {
   return ((r-g)*(r-g) + (r-b)*(r-b) + (g-b)*(g-b))/65535*50+1;
 }
-```
+{% endhighlight %}
 
 若要完全弱化黑白灰，可以把上述最后的 `+1` 去掉。
 
 将颜色应用上述公式的结果乘以颜色出现次数，每个颜色得到一个新的权重。
 
-```js
+{% highlight javascript linenos %}
 result.forEach(function(item) {
   item.weight = parseInt(item.weight * favorSaturatedHue(
     parseInt(item.color.substr(0, 2), 16),
@@ -217,7 +217,7 @@ result.forEach(function(item) {
 result.sort(function(a, b) {
   return b.weight - a.weight
 })
-```
+{% endhighlight %}
 
 下面的截图完全弱化了黑白灰，得到权重大的色彩是皮肤色。
 
@@ -231,7 +231,7 @@ result.sort(function(a, b) {
 
 因为之前的步骤已经把颜色值做了合并，所以这里我把判断阈值加大一些，把匹配到的颜色权重降为原有值的平方根。下述代码里 R/G/B 属于 [0, 255] 区间。
 
-```js
+{% highlight javascript linenos %}
 result.forEach(function (item) {
   var red = parseInt(item.color.substr(0, 2), 16)
   var green = parseInt(item.color.substr(2, 2), 16)
@@ -243,7 +243,7 @@ result.forEach(function (item) {
 result.sort(function(a, b) {
   return b.weight - a.weight
 })
-```
+{% endhighlight %}
 
 至此，取得衣服上的绿色，作为权重最大的颜色。
 
