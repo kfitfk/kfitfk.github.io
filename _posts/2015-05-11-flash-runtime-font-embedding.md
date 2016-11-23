@@ -2,7 +2,7 @@
 layout: post
 title: Flash Runtime Font Embedding
 category: programming
-poster: http://gtms04.alicdn.com/tps/i4/TB1ab3YHFXXXXcCXVXXg4LTVXXX-1200-250.jpg
+poster: https://img.alicdn.com/tps/i4/TB1ab3YHFXXXXcCXVXXg4LTVXXX-1200-250.jpg
 summary: This article talks about how to create a SWF font file and load that file at runtime. We'll discover two common ways of creating such a SWF font file, by using the GUI of Flash Pro IDE and with pure ActionScript 3. Then onto the loading process, either from a local file system or from an online service. A potential naming conflict is covered as well. Finally, a simple unicode range generator.
 ---
 
@@ -39,11 +39,11 @@ summary: This article talks about how to create a SWF font file and load that fi
 
 1. 新建一个 ActionScript 3.0 FLA 文件；
 2. 点击库面板右上角的菜单按钮，选择 New Font 选项；
-    ![New Font](http://gtms03.alicdn.com/tps/i3/TB1M6.1HFXXXXcxXFXXKFs2PpXX-584-228.png)
+    ![New Font](https://img.alicdn.com/tps/i3/TB1M6.1HFXXXXcxXFXXKFs2PpXX-584-228.png)
 3. 在弹出的对话框中，选择一个字体，输入自定义的字体名称，并勾选需要嵌入的字符集。这里的名称可以是任意的，后面不会用到，但所选的字体（Family 一栏）必须记住，会在代码中使用。字符集的选择，对于简体中文的话，一般勾选 Uppercase，Lowercase，Numerals，Punctuation 和 Simplified Chinese - Level 1。如果需要更多生僻字或者繁体等支持，可以按需勾选。至于各个字符集内都包含哪些文字，如果你有下载 Flex SDK 的话，可以到 `path_to_flex_sdk/frameworks/flash-unicode-table.xml` 查看。
-    ![Font embedding dialogue box step 1](http://gtms01.alicdn.com/tps/i1/TB1QiZYHFXXXXXiXVXXrPhbTpXX-1798-776.png)
+    ![Font embedding dialogue box step 1](https://img.alicdn.com/tps/i1/TB1QiZYHFXXXXXiXVXXrPhbTpXX-1798-776.png)
 4. 把上一步的对话框切换到 ActionScript 选项卡，勾选 Export for ActionScript 和 Export in frame 1。这里的 Class 名默认是根据上一步我说任意填写的 Name 一项生成的，可以改成任何合法的名称，并且需要记住这个 Class 名。
-    ![Font embedding dialogue box step 2](http://gtms02.alicdn.com/tps/i2/TB1giwZHFXXXXc3XFXXjTQnOpXX-1790-864.png)
+    ![Font embedding dialogue box step 2](https://img.alicdn.com/tps/i2/TB1giwZHFXXXXc3XFXXjTQnOpXX-1790-864.png)
 5. 点击上一步的对话框右侧 OK 按钮，发布 SWF。
 
 #### Using ActionScript
@@ -76,7 +76,7 @@ summary: This article talks about how to create a SWF font file and load that fi
 
 另外，如要在 Flash Pro 里通过编译，需要下载 [Flex SDK](http://www.adobe.com/devnet/flex/flex-sdk-download.html) 并在 Flash Pro 的偏好设置里对 Flex SDK 路径做出正确配置。
 
-![Flex SDK 路径配置](http://gtms04.alicdn.com/tps/i4/TB1UDA6HFXXXXbAXFXX2iDV2FXX-1318-378.png)
+![Flex SDK 路径配置](https://img.alicdn.com/tps/i4/TB1UDA6HFXXXXbAXFXX2iDV2FXX-1318-378.png)
 
 ### Using a SWF font file
 

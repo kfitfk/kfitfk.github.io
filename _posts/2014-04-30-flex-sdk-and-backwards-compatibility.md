@@ -2,7 +2,7 @@
 layout: post
 title: Flex SDK and Backwards Compatibility
 category: programming
-poster: http://gtms03.alicdn.com/tps/i3/T16fSKFUBXXXXEHz7X-1200-250.jpg
+poster: https://img.alicdn.com/tps/i3/T16fSKFUBXXXXEHz7X-1200-250.jpg
 summary: "This article talks about Flash Player's compatibility issues when targeting different versions. Mainly it focuses on this error message - VerifyError: Error #1053: Illegal override of z in mx.core.BitmapAsset."
 ---
 
@@ -12,7 +12,7 @@ summary: "This article talks about Flash Player's compatibility issues when targ
 
 如果想要支持其他版本，可以到 [Adobe 的 Archive 页面](https://helpx.adobe.com/flash-player/kb/archived-flash-player-versions.html#playerglobal)，或者这个 [Github 仓库](https://github.com/nexussays/playerglobal)，下载对应的 SWC 文件，并新建相应的目录即可。例如，下图就在 4.6 的 SDK 里添加了 9.0，10.0 和 10.3 三个版本的 playerglobal.swc。
 
-![Different version of playerglobal.swc](http://gtms01.alicdn.com/tps/i1/TB1NUNeHFXXXXcnXVXXb05.SVXX-2514-1092.png)
+![Different version of playerglobal.swc](https://img.alicdn.com/tps/i1/TB1NUNeHFXXXXcnXVXXb05.SVXX-2514-1092.png)
 
 ## Backwards compatibility issue
 

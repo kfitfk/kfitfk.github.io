@@ -2,7 +2,7 @@
 layout: post
 title: PS4 Shipping Overseas and Unboxing
 category: life
-poster: http://gtms03.alicdn.com/tps/i3/TB1fiVlHFXXXXbRXXXXW5bTVXXX-1200-250.png
+poster: https://img.alicdn.com/tps/i3/TB1fiVlHFXXXXbRXXXXW5bTVXXX-1200-250.png
 summary: PS4 consoles sold out on all the B2C platforms once it came out. It's expensive to buy one here in China from taobao at the time. So when Amazon emailed me that PS4 is available, I immediately ordered one. Here's the whole process of transferring overseas and the unboxing.
 ---
 
@@ -34,49 +34,49 @@ summary: PS4 consoles sold out on all the B2C platforms once it came out. It's e
 
 邮寄 PS4 的整个过程的时间花费，从亚马逊到美国仓库 6 天 ( 纽约时间 1 月 31 号购买，又碰上周末，2 月 4 号发出，6 号到仓库)，从美国仓库到公司 10 天 (因为碰上 2 个周末，所以 7 号接单，10 号才取货，到中国之后又过了一个周末，本周一 17 号到手)。
 
-![Delivery record](http://gtms03.alicdn.com/tps/i3/TB13odgHFXXXXcvXVXXgQu.KXXX-602-614.jpg)
+![Delivery record](https://img.alicdn.com/tps/i3/TB13odgHFXXXXcvXVXXgQu.KXXX-602-614.jpg)
 
 以上就是转运相关的内容。下面是图片开箱。
 
 不知道 QQ-EX 有没有帮我换过箱子，拿过来的时候里面充满了像棉花糖一样的泡沫，另外主机盒子外面绕了两层塑料泡沫纸。
 
-![Amazon shipping box](http://gtms04.alicdn.com/tps/i4/TB1cBXiHFXXXXXlXVXXzd_aGpXX-700-525.jpg)
+![Amazon shipping box](https://img.alicdn.com/tps/i4/TB1cBXiHFXXXXXlXVXXzd_aGpXX-700-525.jpg)
 
 其实开箱的过程没拍，下面是在公司拿出来试用之后又装回去回家拆了一次。
 
 盒子外观，反正网上都有，正面是主机图片，标准版的背面就是 Knack，Infamous，Assassin’s Creed 这些游戏主角人物。
 
-![PS4 box front side](http://gtms02.alicdn.com/tps/i2/TB1M40pHFXXXXaGXXXXfXa1GpXX-700-426.jpg)
+![PS4 box front side](https://img.alicdn.com/tps/i2/TB1M40pHFXXXXaGXXXXfXa1GpXX-700-426.jpg)
 
-![PS4 box back side](http://gtms01.alicdn.com/tps/i1/TB1jPlnHFXXXXagXpXXU0e1GpXX-700-397.jpg)
+![PS4 box back side](https://img.alicdn.com/tps/i1/TB1jPlnHFXXXXagXpXXU0e1GpXX-700-397.jpg)
 
 打开之后，左边是主机，右边一个手柄和一些线缆，还有一张体验卡和快速入门以及说明书。
 
-![First impression](http://gtms03.alicdn.com/tps/i3/TB1uHBkHFXXXXaTXFXXzd_aGpXX-700-525.jpg)
+![First impression](https://img.alicdn.com/tps/i3/TB1uHBkHFXXXXaTXFXXzd_aGpXX-700-525.jpg)
 
 机子的设计感觉比 XBox One 好看，而且更小更薄。
 
-![The front side of PS4](http://gtms02.alicdn.com/tps/i2/TB1G9hmHFXXXXaYXpXX55uzGpXX-700-221.jpg)
+![The front side of PS4](https://img.alicdn.com/tps/i2/TB1G9hmHFXXXXaYXpXX55uzGpXX-700-221.jpg)
 
-![The back side of PS4](http://gtms01.alicdn.com/tps/i1/TB198ViHFXXXXXUXVXXg6mBGpXX-700-229.jpg)
+![The back side of PS4](https://img.alicdn.com/tps/i1/TB198ViHFXXXXXUXVXXg6mBGpXX-700-229.jpg)
 
 手柄的设计很喜欢，带扬声器，也可以插上附赠的耳机。
 
-![The dualshock 4 controller](http://gtms03.alicdn.com/tps/i3/TB1AG4cHFXXXXXrapXXEoKZGpXX-700-419.jpg)
+![The dualshock 4 controller](https://img.alicdn.com/tps/i3/TB1AG4cHFXXXXXrapXXEoKZGpXX-700-419.jpg)
 
 主机和手柄的背面都印着 Made in China。真是讽刺啊。大陆暂时买不到这货，还得花这么多邮费从美国再弄回来。
 
 主机上的灯就是启动的蓝色、挂起的橘黄和正常运行的白色。
 
-![PS4 in sleep mode](http://gtms04.alicdn.com/tps/i4/TB1FClqHFXXXXXTXXXXgHZU.XXX-452-536.jpg)
+![PS4 in sleep mode](https://img.alicdn.com/tps/i4/TB1FClqHFXXXXXTXXXXgHZU.XXX-452-536.jpg)
 
 只是电源开关是触摸的，不小心碰到就开机了。
 
 在亚马逊买了美国区的一年会员卡($49.99)，因为刺客信条还没到么，只能先玩两个 PS Plus 的免费游戏。一个是 PS4 独占的 Resogun，还有一个是本月刚免的恐怖逃生游戏 Outlast。
 
-![Resogun - The free games of PS+](http://gtms01.alicdn.com/tps/i1/TB1_F0pHFXXXXbFXXXXDeYePpXX-688-405.jpg)
+![Resogun - The free games of PS+](https://img.alicdn.com/tps/i1/TB1_F0pHFXXXXbFXXXXDeYePpXX-688-405.jpg)
 
-![Outlast - The free games of PS+](http://gtms02.alicdn.com/tps/i2/TB1fb8hHFXXXXcbXVXX1ACZGpXX-700-421.jpg)
+![Outlast - The free games of PS+](https://img.alicdn.com/tps/i2/TB1fb8hHFXXXXcbXVXX1ACZGpXX-700-421.jpg)
 
 美服的会员比港服贵，而且最近港服有充一年送 3 个月活动。就 PS3 的情况来说，美服有时候会有些意外的游戏，但是 PS4 目前这个游戏比较少的状态，估计不会有什么惊喜吧。早知道就充港服了，美服的下载速度真的是太慢了，我基本都是挂起开通宵下载的。联机游戏早上刚装好，还没有尝试，估计连不上或者连上也会极度延迟吧。
 
