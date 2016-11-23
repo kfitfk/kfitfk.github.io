@@ -5,7 +5,7 @@ category: programming
 poster: https://img.alicdn.com/tps/TB1sLsKLVXXXXasXpXXXXXXXXXX-1200-250.jpg
 summary: Describes how to create color pickers using CSS and Canvas. I'll cover several forms. 1. The HSV color picker with 3 sliders; 2. A color pool showing S and V with an extra H strip; 3. RGB color wheel using Canvas; 4. RYB color wheel like the one you see in Illustrator's recolor artwork dialog box.
 customjs:
- - http://assets.codepen.io/assets/embed/ei.js
+ - https://assets.codepen.io/assets/embed/ei.js
 ---
 
 ## Intro
