@@ -2,7 +2,7 @@
 layout: post
 title: Making a VPAID 2 Compliant Flash Creative
 category: programming
-poster: http://gtms02.alicdn.com/tps/i2/TB1BM8XHFXXXXcIXpXXg4LTVXXX-1200-250.jpg
+poster: https://img.alicdn.com/tps/i2/TB1BM8XHFXXXXcIXpXXg4LTVXXX-1200-250.jpg
 summary: This article walks you through the ActionScript 3 part of the VPAID 2 specification. I first comment most of the VPAID inerface properties and methods as well as the events. Then I implement a video player widget for the VPAID creative. After that, I put all the things together to show you how the VPAID creative interacts with the VPAID player. Feel free to download and play with the sample code.
 ---
 
@@ -508,7 +508,7 @@ public function clean():void {
 ## Sample
 
 最后提供一个简易的 VPAID 2 创意示例。要运行这个示例，你需要有一个支持 VPAID 2 的播放器。为方便起见，这里我会使用一个非常简单的播放器。
-![A simple VPAID 2 compliant player](http://gtms03.alicdn.com/tps/i3/TB1r.xbHFXXXXbpXpXXduvuOpXX-1283-1045.png)
+![A simple VPAID 2 compliant player](https://img.alicdn.com/tps/i3/TB1r.xbHFXXXXbpXpXXduvuOpXX-1283-1045.png)
 
 示例中的创意使用 Video in VPAID Creative 一节里的类来播放视频，实现了 Interface 一节所述的接口，并发送 VPAID Events 一节所述的部分事件。
 

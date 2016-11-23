@@ -2,7 +2,7 @@
 layout: post
 title: Click Event on Loaded SWF
 category: programming
-poster: http://gtms03.alicdn.com/tps/i3/TB1KuukFVXXXXa_XFXXg4LTVXXX-1200-250.jpg
+poster: https://img.alicdn.com/tps/i3/TB1KuukFVXXXXa_XFXXg4LTVXXX-1200-250.jpg
 summary: This article talks about the click mouse event listener on a loaded SWF file. I encounter a problem that when the user clicks the loaded SWF file, the event listener on the loader cannot be notified. The solution is simple. But I guess the process of solving the problem is insteresting and worth an article.
 ---
 
@@ -117,7 +117,7 @@ function onSwfClick(event:MouseEvent):void {
 要重新这个问题，只要把最初的那段代码里，`Main` 构造方法内的广告地址更换一下即可。
 
 {% highlight as3 linenos %}
-_loader.load(new URLRequest("http://gtms04.alicdn.com/tps/i4/TB1Fzd.FVXXXXaOXXXXeflbFXXX.swf"));
+_loader.load(new URLRequest("https://img.alicdn.com/tps/i4/TB1Fzd.FVXXXXaOXXXXeflbFXXX.swf"));
 {% endhighlight %}
 
 本地测试影片，发现点击淘宝网的 Logo，调用了 `onSwfClick` 方法；点击空白区域或者渐变背景，则会调用 `onClick` 方法。

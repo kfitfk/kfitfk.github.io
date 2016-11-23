@@ -2,7 +2,7 @@
 layout: post
 title: Compile SWF from Terminal
 category: programming
-poster: http://gtms01.alicdn.com/tps/i1/T1wYToFCxcXXcgJj7X-1200-250.png
+poster: https://img.alicdn.com/tps/i1/T1wYToFCxcXXcgJj7X-1200-250.png
 summary: Flex SDK offers the mxmlc command line tool which allows user to compile a SWF file from the terminal. This article talks about how to use Flash Professinal to create an SWC file and use the mxmlc command to compile.
 ---
 
@@ -38,15 +38,15 @@ summary: Flex SDK offers the mxmlc command line tool which allows user to compil
 
 这里我们假设图片本身的尺寸为 420x280，并且我们把舞台大小就设置为 420x280。在 Flash 里面，通过 Window - Components (Cmd + F7) 来打开 Components 面板，找到并拖出一个 UILoader 组件到舞台上。当然，这个 UILoader 我们也要调整尺寸为 420x280，完成之后将其转换为一个 MovieClip 元件。
 
-![Convert UILoader to MovieClip](http://gtms01.alicdn.com/tps/i1/TB1V70eHFXXXXc0XVXXMN6FUFXX-840-346.jpg)
+![Convert UILoader to MovieClip](https://img.alicdn.com/tps/i1/TB1V70eHFXXXXc0XVXXMN6FUFXX-840-346.jpg)
 
 此时，舞台上的内容类似下图这样。
 
-![State of current stage](http://gtms02.alicdn.com/tps/i2/TB1TwdlHFXXXXXoXpXXGaph0FXX-848-670.jpg)
+![State of current stage](https://img.alicdn.com/tps/i2/TB1TwdlHFXXXXXoXpXXGaph0FXX-848-670.jpg)
 
 下面就是补间动画的创建。为了保证最大兼容性，这里我全都用 Class Tween 来实现。下面这个是动画结束时，刚才的 MovieClip 的属性值。这里要特别指出一点，下图面板的 Display 选项卡下面，有一个 Render 选项。
 
-![Properties panel](http://gtms03.alicdn.com/tps/i3/TB1SiVeHFXXXXbRXVXXuWgZ.VXX-716-1100.jpg)
+![Properties panel](https://img.alicdn.com/tps/i3/TB1SiVeHFXXXXbRXVXXuWgZ.VXX-716-1100.jpg)
 
 没记错的话这是 Flash CS5.5 引入的功能，可以把元件缓存为 Bitmap，优化性能。但是这里不能使用这个选项，不然在后面使用 Flex 4.6 SDK 编译完成后，会造成 SWF 文件崩溃，而且在 Debugger 里不会报任何错误。保持 Original 被选中就好。
 
@@ -152,7 +152,7 @@ private function _smoothImage(event:Event):void {
 
 在这个示例中，我们假设所有的 AS 文件都和 FLA 文件在一个目录下。回到 FLA 文件里，在 Libraries 面板下找到之前创建的 ImageLoader，在右键菜单中选择 Properties，在弹出的对话框里展开 Advanced 选项，勾选 Export for ActionScript，并修改 Base Class 为 UILoaderMc。
 
-![Export for ActionScript](http://gtms04.alicdn.com/tps/i4/TB1dTReHFXXXXcWXVXXN3m0HFXX-702-784.jpg)
+![Export for ActionScript](https://img.alicdn.com/tps/i4/TB1dTReHFXXXXcWXVXXN3m0HFXX-702-784.jpg)
 
 设置完成后到 Demo.as 里边，在构造函数内加载图片。
 
@@ -173,7 +173,7 @@ public function Demo() {
 
 使用 Cmd + F8 创建一个新的 MovieClip 元件，这里我起名为 Animation。在主时间轴上选中所有帧，在右键菜单中选择 Copy Frames。
 
-![Copy Frames](http://gtms01.alicdn.com/tps/i1/TB12xXiHFXXXXabXFXX5b56WpXX-1202-226.jpg)
+![Copy Frames](https://img.alicdn.com/tps/i1/TB12xXiHFXXXXabXFXX5b56WpXX-1202-226.jpg)
 
 在 Library 面板里双击 Animation 元件，在时间轴第一帧上右键选择 Paste Frames。此时 Flash 会把内容居中粘贴。 为了后面用 AS 来添加元素的时候方便定位，我在这里手动将元素的左上角移动到元件注册点上。
 
@@ -181,7 +181,7 @@ public function Demo() {
 
 完成上述操作之后，在 Library 里面的 Animation 原件上选择右键菜单里的 Properties，勾选 Export for ActionScript 和 Export in frame 1。Class 名称我就接受默认的 Animation。
 
-![Export main animation for ActionScript](http://gtms02.alicdn.com/tps/i2/TB1IthhHFXXXXbDXFXXQbf.SpXX-696-778.jpg)
+![Export main animation for ActionScript](https://img.alicdn.com/tps/i2/TB1IthhHFXXXXbDXFXXQbf.SpXX-696-778.jpg)
 
 最后，在 Animation 元件的右键菜单里选择 Export SWC file，会弹出保存对话框，我就存在当前 FLA 所在目录里，文件名为 Animation.swc。
 
@@ -314,7 +314,7 @@ package  {
 
 示例中使用的图片是 138KB，最后对比一下嵌入图片前后的 swf 文件体积，从 20KB 上涨到 149KB，符合预期。
 
-![Comparing SWF files’ size](http://gtms03.alicdn.com/tps/i3/TB10GBfHFXXXXbYXVXXw3hOKVXX-996-464.jpg)
+![Comparing SWF files’ size](https://img.alicdn.com/tps/i3/TB10GBfHFXXXXbYXVXXw3hOKVXX-996-464.jpg)
 
 ## 注意事项
 
