@@ -42,8 +42,8 @@ table th, table td {
 
 .page-wrapper {
   margin: 56px auto 0; /* sync the top margin in main.js*/
-  max-width: 620px;
-  font-size: 14px;
+  max-width: 660px;
+  font-size: 16px;
   background: #fff;
 }
 
@@ -82,7 +82,7 @@ table th, table td {
 .site-nav {
   position: relative;
   margin: 0 auto;
-  max-width: 620px;
+  max-width: 660px;
   background: rgba(255, 255, 255, 0.95);
   text-align: center;
 }
