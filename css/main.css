@@ -106,10 +106,6 @@ table th, table td {
 /*------------^2 navigation ends------------*/
 
 /*------------^3 index page-----------*/
-.post-list {
-
-}
-
 .post-list-item {
   margin: 20px 0;
   padding: 6px;
@@ -144,6 +140,10 @@ table th, table td {
 .post-wrapper ol li {
   list-style-position: inside;
   list-style-type: decimal;
+}
+
+.post-wrapper ol li p {
+  display: inline;
 }
 
 .post-wrapper ul li::before {
