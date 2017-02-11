@@ -95,14 +95,14 @@ aia 文件与 atn 文件有个很大的区别，aia 是普通文本文件，atn 
 ```
 /version 3
 /name [ 4
-	64656d6f
+  64656d6f
 ]
 /isOpen 1
 /actionCount 1
 /action-1 {
-	/name [ 11
-		5361766520617320535647
-	]
+  /name [ 11
+    5361766520617320535647
+  ]
 ```
 
 第 2-3 行的 `name` 表示当前动作集的名称。第 3 行的 `64656d6f` 即代表 “demo”，第 2 行末尾的 `4` 表示名称的长度是 4 个字符。第 5 行 `isOpen` 代表该动作集在动作面板是处于展开的状态。第 6 行 `actionCount` 也很明显，代表该动作集内总共包含 1 个动作。之后 `action-1` 就是具体的动作描述了。
@@ -111,20 +111,20 @@ aia 文件与 atn 文件有个很大的区别，aia 是普通文本文件，atn 
 
 ```JavaScript
 function decode(str) {
-	let result = '';
-	for (let i = 0; i < str.length; i += 2) {
-		let tmpStr = str.substring(i, i+2);
-		result += String.fromCharCode(Number('0x' + tmpStr));
-	}
-	return result;
+  let result = '';
+  for (let i = 0; i < str.length; i += 2) {
+    let tmpStr = str.substring(i, i+2);
+    result += String.fromCharCode(Number('0x' + tmpStr));
+  }
+  return result;
 }
 
 function encode(str) {
-	let result = '';
-	for (let i = 0; i < str.length; i++) {
-		result += str.charCodeAt(i).toString(16);
-	}
-	return result;
+  let result = '';
+  for (let i = 0; i < str.length; i++) {
+    result += str.charCodeAt(i).toString(16);
+  }
+  return result;
 }
 
 encode('demo'); // "64656d6f"
@@ -137,12 +137,12 @@ decode('64656d6f'); // "demo"
 
 ```
 /parameter-17 {
-	/key 1231953952
-	/showInPalette 4294967295
-	/type (ustring)
-	/value [ 29
-		2f55736572732f796568616f2f4465736b746f702f64656d6f2e706e67
-	]
+  /key 1231953952
+  /showInPalette 4294967295
+  /type (ustring)
+  /value [ 29
+    2f55736572732f796568616f2f4465736b746f702f64656d6f2e706e67
+  ]
 }
 ```
 
@@ -197,11 +197,11 @@ decode('2f55736572732f796568616f2f4465736b746f702f64656d6f2e706e67');
 
 1. 删除绘制图形的步骤。删除一条动作很简单，只要选中要删除的步骤名称，动作面板底部的垃圾桶图标就会变成可用状态。你可以直接点击垃圾桶删除选中步骤，或者将步骤拖拽到垃圾桶图标上。区别是，点击垃圾桶会有确认对话框，直接拖拽过去则会直接删除。这里我删掉 Polygon Tool 这一步。你的绘制步骤名称视你选择的工具，会和我的略有不同；
 
-![删除绘制图形步骤][13]
+  ![删除绘制图形步骤][13]
 
 2. 更改移动步骤为拷贝。此时当前动作剩下两个步骤，Move 和 Rotate。这里我们要让 Move 步骤执行拷贝，而非移动操作。最简单的方法，是在动作面板里双击 Move 这步，以再次呼出移动对话框。此时选择 Copy 而非 OK 命令，即可修改成功；
 
-![修改移动步骤为拷贝][14]
+  ![修改移动步骤为拷贝][14]
 
 3. 插入缩放步骤。要插入一个新步骤，我们需要让当前动作重新进入录制状态。所以选中 cp_right 动作或者该动作内的某一个步骤，点击面板底部红色录制按钮。双击缩放工具，输入你喜欢的数值并点击 OK。接着停止录制。如果此时 Scale 动作出现在 Rotate 动作后面，你可以通过拖拽的方式调整步骤的先后顺序。
 
