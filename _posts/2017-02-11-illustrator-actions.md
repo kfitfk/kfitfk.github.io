@@ -2,7 +2,7 @@
 layout: post
 title: Illustrator Automation - Actions
 category: programming
-poster: http://img.alicdn.com/tfscom/TB1_DHtPpXXXXbLXVXXXXXXXXXX.jpg
+poster: https://img.alicdn.com/tfscom/TB1_DHtPpXXXXbLXVXXXXXXXXXX.jpg
 summary: This article talks about the Actions Panel in Adobe Illustrator. The techniques from this article can be used in other Adobe products which also supports Actions like Photoshop.
 ---
 
@@ -235,20 +235,20 @@ decode('2f55736572732f796568616f2f4465736b746f702f64656d6f2e706e67');
 
 通过这篇长长的文章，希望能够对你使用动作面板自动化一些操作起到帮助。如开篇所述，这是最简单的一种自动化方式，不涉及任何代码，但已经可以解决很多日常机械化的操作了。在后续文章里，我们将更加深入，使用 JavaScript 来进行更加复杂的自动化操作及扩展功能的开发。
 
-[1]:http://img.alicdn.com/tfscom/TB1rEvVPpXXXXcPXXXXXXXXXXXX.png
-[2]:http://img.alicdn.com/tfscom/TB1IXLjPpXXXXb9aXXXXXXXXXXX.png
-[3]:http://img.alicdn.com/tfscom/TB1kQ6BPpXXXXcNXFXXXXXXXXXX.png
-[4]:http://img.alicdn.com/tfscom/TB1yt2kPpXXXXa1aXXXXXXXXXXX.png
-[5]:http://img.alicdn.com/tfscom/TB1e2r2PpXXXXaWXXXXXXXXXXXX.png
-[6]:http://img.alicdn.com/tfscom/TB1YM6CPpXXXXa4XFXXXXXXXXXX.png
-[7]:http://img.alicdn.com/tfscom/TB1dg_QPpXXXXa_XpXXXXXXXXXX.png
-[8]:http://img.alicdn.com/tfscom/TB1EkvsPpXXXXciXVXXXXXXXXXX.png
-[9]:http://img.alicdn.com/tfscom/TB1YMDcPpXXXXcgapXXXXXXXXXX.png
-[10]:http://img.alicdn.com/tfscom/TB11YDEPpXXXXa7XFXXXXXXXXXX.png
-[11]:http://img.alicdn.com/tfscom/TB1xAjWPpXXXXbWXXXXXXXXXXXX.png
-[12]:http://img.alicdn.com/tfscom/TB1P5brPpXXXXXuaXXXXXXXXXXX.png
-[13]:http://img.alicdn.com/tfscom/TB1rxDnPpXXXXbJaXXXXXXXXXXX.png
-[14]:http://img.alicdn.com/tfscom/TB1Op2qPpXXXXaIaXXXXXXXXXXX.png
-[15]:http://img.alicdn.com/tfscom/TB1ghjTPpXXXXXEXpXXXXXXXXXX.png
-[16]:http://img.alicdn.com/tfscom/TB1Hl20PpXXXXaSXXXXXXXXXXXX.png
-[17]:http://img.alicdn.com/tfscom/TB1aSvDPpXXXXaFXFXXXXXXXXXX.png
+[1]:https://img.alicdn.com/tfscom/TB1rEvVPpXXXXcPXXXXXXXXXXXX.png
+[2]:https://img.alicdn.com/tfscom/TB1IXLjPpXXXXb9aXXXXXXXXXXX.png
+[3]:https://img.alicdn.com/tfscom/TB1kQ6BPpXXXXcNXFXXXXXXXXXX.png
+[4]:https://img.alicdn.com/tfscom/TB1yt2kPpXXXXa1aXXXXXXXXXXX.png
+[5]:https://img.alicdn.com/tfscom/TB1e2r2PpXXXXaWXXXXXXXXXXXX.png
+[6]:https://img.alicdn.com/tfscom/TB1YM6CPpXXXXa4XFXXXXXXXXXX.png
+[7]:https://img.alicdn.com/tfscom/TB1dg_QPpXXXXa_XpXXXXXXXXXX.png
+[8]:https://img.alicdn.com/tfscom/TB1EkvsPpXXXXciXVXXXXXXXXXX.png
+[9]:https://img.alicdn.com/tfscom/TB1YMDcPpXXXXcgapXXXXXXXXXX.png
+[10]:https://img.alicdn.com/tfscom/TB11YDEPpXXXXa7XFXXXXXXXXXX.png
+[11]:https://img.alicdn.com/tfscom/TB1xAjWPpXXXXbWXXXXXXXXXXXX.png
+[12]:https://img.alicdn.com/tfscom/TB1P5brPpXXXXXuaXXXXXXXXXXX.png
+[13]:https://img.alicdn.com/tfscom/TB1rxDnPpXXXXbJaXXXXXXXXXXX.png
+[14]:https://img.alicdn.com/tfscom/TB1Op2qPpXXXXaIaXXXXXXXXXXX.png
+[15]:https://img.alicdn.com/tfscom/TB1ghjTPpXXXXXEXpXXXXXXXXXX.png
+[16]:https://img.alicdn.com/tfscom/TB1Hl20PpXXXXaSXXXXXXXXXXXX.png
+[17]:https://img.alicdn.com/tfscom/TB1aSvDPpXXXXaFXFXXXXXXXXXX.png
