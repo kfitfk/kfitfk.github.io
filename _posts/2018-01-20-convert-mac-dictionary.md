@@ -39,7 +39,7 @@ macOS 自带的字典应用，包含 New Oxford American Dictionary (NOA) 和牛
 - [Lingvo Dictionary](https://www.lingvolive.com/en-us) 俄罗斯的一款字典软件，可以自己编译字典，自带 Oxford American Dictionary, Random House Webster's College Dictionary 和 Collins Cobuild Dictionary。此外支持多国语言词典，但 Mac 版不支持中文。价格比较贵，大概 $40，但肯定比你单独去买齐它默认附带的词典要便宜。这个 App 最大的特点是用户可以自己添加词典，但要编译词典的话，得有个 Windows 的电脑；
 - [GoldenDict](http://goldendict.org/) 一个开源的字典应用，支持各家的字典格式。这只是一个空的 App，字典是要用户自己添加的。
 
-## Dictionary complilation for macOS
+## Dictionary converting for macOS
 
 鉴于我比较喜欢系统自带的牛津英汉，又不想同时开着两个 App 查词，因此想把 Lingvo 格式的 RHD 重新编译成系统 App 支持的文件格式。网上搜索了一下，确实在 Github 上有一个工具，叫做 [pyglossary](https://github.com/ilius/pyglossary/)。
 
