@@ -6,6 +6,10 @@ poster: https://img.alicdn.com/tfscom/TB1y71ZiTtYBeNjy1XdXXXXyVXa.jpg
 summary: A brief summary of installing and using rbenv to install and manage Ruby
 ---
 
+## Update 2018/06/22
+
+文末提到的 [Ruby China](https://gems.ruby-china.com/) 的镜像域名由于[备案问题](https://ruby-china.org/topics/37030)发生变化，从 `.org` 改为 `.com`。
+
 去年末更新博客的时候就发现 Github 提示我的 github-pages gem 内部有个依赖有安全问题。
 
 ![Github RubyGem vulnerability warning](https://img.alicdn.com/tfscom/TB1wB9ZiTtYBeNjy1XdXXXXyVXa.png)
@@ -51,6 +55,6 @@ rbenv install 2.5.1
 
 然后就能用 `gem install bundler` 来安装 [bundler](http://bundler.io/) 了。
 
-这里还可以把 RubyGem 的源改成 [Ruby China](https://gems.ruby-china.org/) 的，这样会快一些。
+这里还可以把 RubyGem 的源改成 [Ruby China](https://gems.ruby-china.com/) 的，这样会快一些。
 
 最后，到我的博客目录下，执行 `bundle update` 来更新 github pages gem 及其依赖。再把新的 Gemfile.lock 推到 github 仓库即可解决安全提示问题。
