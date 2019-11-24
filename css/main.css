@@ -151,6 +151,11 @@ table th, table td {
   padding: 0 4px;
 }
 
+.post-wrapper li>ul,
+.post-wrapper li>ol {
+  margin-left: 12px;
+}
+
 .post-wrapper .poster {
   padding: 6px;
   width: 100%;
