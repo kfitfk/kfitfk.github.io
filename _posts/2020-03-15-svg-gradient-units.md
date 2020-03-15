@@ -3,7 +3,7 @@ layout: post
 title: SVG Gradient Units
 category: programming
 poster: https://img.alicdn.com/tfs/TB1fhwQyeH2gK0jSZJnXXaT1FXa-2400-500.jpg
-summary: This article talks about the 2 unit systems used in SVG gradient: objectBoundingBox and userSpaceOnUse and how to convert from one to another.
+summary: This article talks about the 2 unit systems used in SVG gradient, objectBoundingBox and userSpaceOnUse and how to convert from one to another.
 ---
 
 ## Intro
