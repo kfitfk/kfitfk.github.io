@@ -172,9 +172,9 @@ matrix(0, 1, -1.9433, 0, 344.3344, -50)
 
 ```xml
 <radialGradient
-  cx="50%" cy="50%"
-  fx="50%" fy="50%"
-  r="76.789%"
+  cx="150" cy="100"
+  fx="150" fy="100"
+  r="76.789"
   gradientTransform="matrix(0, 1, -1.9433, 0, 344.3344, -50)"
   id="rg1"
   gradientUnits="userSpaceOnUse">
