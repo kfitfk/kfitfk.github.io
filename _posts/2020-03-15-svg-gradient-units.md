@@ -151,7 +151,7 @@ SVG 渐变有两种单位模式，`objectBoundingBox` 和 `userSpaceOnUse`，可
 
 由于该矩形并非正方形，刚才计算 `r` 时乘以较小的边长，还需用 `gradientTransform` 不等比水平拉伸 MAX(200, 100) / MIN(200, 100) = 2 倍，即拉伸所需 `gradientTransform="translate(cx, cy) scale(2, 1) translate(-cx, -cy)"`。刚才已经算得 `cx=150`，`cy=100`。
 
-由于该径向渐变自身已经有 `gradientTransform` 属性，在单位转换时，还需把它原有的 `gradientTransform` 中的 `translate` 转为绝对值并调整。若 `rotate` 使用了 3 个参数的形式（即配置了基准点，本例未出现），还要把旋转基准点也转为绝对坐标。
+由于该径向渐变自身已经有 `gradientTransform` 属性，在单位转换时，还需把它原有的 `gradientTransform` 中的 `translate` 转为绝对值。若 `rotate` 使用了 3 个参数的形式（即配置了基准点，本例未出现），还要把旋转基准点也转为绝对坐标。
 
 于是，`translate(0.5,0.5)` 的第一个 `0.5` 要转换成 `0.5 * 200 + 50 = 150`，第二个 `0.5` 要转成 `0.5 * 100 + 50 = 100`。
 
@@ -168,7 +168,7 @@ translate(150, 100) scale(0.5,1.0),rotate(90.0),scale(1.0,1.943),translate(-150,
 matrix(0, 1, -1.9433, 0, 344.3344, -50)
 ```
 
-以下是 `<radialGradient>` 转成 `objectBoundingBox` 后的 SVG 代码：
+以下是 `<radialGradient>` 转成 `userSpaceOnUse` 后的 SVG 代码：
 
 ```xml
 <radialGradient
