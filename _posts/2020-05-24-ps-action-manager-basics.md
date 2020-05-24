@@ -2,7 +2,7 @@
 layout: post
 title: Photoshop Action Manager Basics
 category: programming
-poster: https://img.alicdn.com/tfs/TB1ombVHBr0gK0jSZFnXXbRRXXa-1609-558.png
+poster: https://img.alicdn.com/tfs/TB1kHjLHpT7gK0jSZFpXXaTkpXa-2400-500.png
 summary: This article discusses the basics of using action manager in Adobe Photoshop, mainly focusing on retrieving the layer style info of a selected layer.
 ---
 
