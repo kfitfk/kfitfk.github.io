@@ -2,10 +2,10 @@ port: 7780
 
 title: 潴頭在綫
 description:
-url: https://kfitfk.github.io
+url: https://blog.yehao.me
 author:
-  name: 叶浩
-  uri: https://kfitfk.github.io
+  name: Hao Ye
+  uri: https://blog.yehao.me
 
 gems:
   - jekyll-feed
