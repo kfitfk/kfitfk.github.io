@@ -2,7 +2,7 @@
 layout: post
 title: Batch Processing Images with Adobe Camera Raw AI filters
 category: programming
-poster: https://img.alicdn.com/tfs/TB1kHjLHpT7gK0jSZFpXXaTkpXa-2400-500.png
+poster: https://ossgw.alicdn.com/creatives-assets/prod/feupload/user/p/d7d3c620-dfaa-11f0-a1a4-5b430a24389f.jpg
 summary: This article talks about how to update masks automatically when batch processing images with Adobe Camera Raw AI Filters, using techniques like UXP scripting, Alchemist plugin, and AppleScript or AutoHotKey Script.
 ---
 
